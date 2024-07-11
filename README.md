@@ -27,5 +27,4 @@
 ### 📊 Stats
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashykng&layout=compact)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashykng&size_weight=0.5&count_weight=0.5)
