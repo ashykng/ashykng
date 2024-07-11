@@ -20,6 +20,9 @@
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <br />
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Leetcode)](https://github.com/ashykng/Leetcode)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Quera)](https://github.com/ashykng/Quera)
+<br />
 ### 📊 Stats
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github)
