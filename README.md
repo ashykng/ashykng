@@ -5,7 +5,7 @@
   <img src="https://profile-counter.glitch.me/sagar-viradiya/count.svg" />
 </p>
 
-### 🧰 Languages and Tools
+<b>🧰 Languages and Tools</b>
 
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -24,7 +24,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Quera)](https://github.com/ashykng/Quera)
 
 <br />
-### 📊 Stats
+<b>📊 Stats</b>
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github&hide=contribs,prs,issues)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashykng&layout=compact)
