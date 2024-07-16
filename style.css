@@ -1,0 +1,18 @@
+:root {
+    background-color: #000000;
+    --size: 1.6;
+    
+}
+
+.cmd, .cmd div, .cmd span[data-text]:not(.cmd-inverted):not(.token):not(.emoji), .terminal, .terminal-output > :not(.raw) a, .terminal-output > :not(.raw) div, .terminal-output > :not(.raw) span[data-text]:not(.token):not(.inverted):not(.terminal-inverted):not(.cmd-inverted):not(.terminal-error):not(.emoji) {
+    background-color: #000000;
+    color: #00FF00;
+}
+
+.cmd, .cmd span:not(.fas):not(.far):not(.fa), .terminal, .terminal-output > :not(.raw), .terminal-output > :not(.raw) a, .terminal-output > :not(.raw) span:not(.fas):not(.far):not(.fa){
+    font-family: Abel;
+}
+
+.terminal .terminal-output div div a {
+    color: #00FF00;
+}
