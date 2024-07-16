@@ -17,6 +17,7 @@ $('body').terminal({
     skill: function() {
         this.echo('Python  4.5/5 \n' +
                   'Django  3/5 \n' + 
+                  'MVC  3/5 \n' + 
                   'Flask  3.5/5 \n' +
                   'SQL  3/5 \n' +
                   'Git  3/5 \n'+
