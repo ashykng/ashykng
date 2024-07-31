@@ -20,8 +20,8 @@
 <br />
 <br />
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Leetcode)](https://github.com/ashykng/Leetcode)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Quera)](https://github.com/ashykng/Quera)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ashykng&repo=Leetcode)](https://github.com/ashykng/Leetcode)
 
 <br />
 <b>📊 Stats</b>
