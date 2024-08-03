@@ -20,6 +20,7 @@ $('body').terminal({
                   'MVC  3/5 \n' + 
                   'Flask  3.5/5 \n' +
                   'SQL  3/5 \n' +
+                  'React 3/5 \n' +
                   'Git  3/5 \n'+
                   'Docker  3/5 \n'+
                   'Linux  3/5 \n');
