@@ -53,5 +53,5 @@ $('body').terminal({
 }, {
     checkArity: false,
     completion: true,
-    greetings: '[[;rgba(255, 255, 255, 1);]Welcome to my online resume; my name is Ashkan Tavassoli] \nUse ls to see list of commands! \n'
+    greetings: '[[;rgba(255, 255, 255, 1);]Welcome to my online resume; my name is Ashkan Tavassoli] \nUse "ls" to see list of commands! \n'
 });
