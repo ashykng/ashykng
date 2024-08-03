@@ -33,7 +33,7 @@ $('body').terminal({
     },
     contact: function() {
         const github = $("<a target='_blank' href='https://github.com/ashykng'> Github </a>");
-        const email = $("<a target='_blank' href='ashkan.tavassoli.2005@gmail.com'> Email </a>");
+        const email = $("<a target='_blank' href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWglSzNBqPrNBJmHtLqmJNwMXxHzXFwSGwdfnrjCRSFvdxHJWxZbWZpczlzmdXQTXKDJV'> Email </a>");
         this.echo(github);
         this.echo(email);
     },
