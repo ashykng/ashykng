@@ -44,11 +44,11 @@ $('body').terminal({
     },
     experience: function(company='all') {
         switch (company) {
-            case 'Mozayedegar':
-                this.echo("Intern Python Developer \nMozayedegar Full-time \n2023 May to 2024 January\nOn-Site \n");
+            case 'mozayedegar':
+                this.echo("Intern Python Developer\nMozayedegar Full-time\n2023 May to 2024 January\nOn-Site\nMy Responsibilities:\n-ANPR (Automatic Number Plate Recognition):\nProject: Automatic Number Plate Recognition (ANPR) with YOLOv7\nTechnologies: YOLOv7, Flask, Swagger\nDescription: Developed an ANPR system using YOLOv7 for plate recognition. Created an API for the system with Flask and documented it using Swagger.\n-Car Price Prediction:\nProject: Car Price Prediction Model\nTechnologies: Web Scraping, DecisionTreeClassifier, Flask, Swagger\nDescription: Scraped data from Divar.ir to build a car price prediction model. Utilized a DecisionTreeClassifier with features like BrandType, Age, and Usage of the car. Developed an API for the model with Flask and documented it using Swagger.\n-Frontend Collaboration:\nDescription: Collaborated on frontend development for various projects, contributing approximately 30% to the design and implementation of user interfaces.");
                 break;
             default:
-                this.echo("Mozayedegar \n");
+                this.echo("mozayedegar \n");
         }
     }
 }, {
