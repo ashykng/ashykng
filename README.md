@@ -24,3 +24,8 @@
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github&hide=contribs,prs,issues)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashykng&layout=compact)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ashykng/ashykng/main/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ashykng/ashykng/main/github-contribution-grid-snake.svg" alt="Snake animation" />
+</picture>
