@@ -43,16 +43,20 @@ $('body').terminal({
         this.echo(resume);
     },
     experience: function(company='all') {
-        switch (company) {
-            case 'mozayedegar':
-                this.echo("Intern Python and Frontend Developer\nMozayedegar Full-time\n2023 May to 2024 January\nOn-Site\nMy Responsibilities:\n\t-ANPR (Automatic Number Plate Recognition):\n\t\tProject: Automatic Number Plate Recognition (ANPR) with YOLOv7\n\t\tTechnologies: YOLOv7, Flask, Swagger\n\t\tDescription: Developed an ANPR system using YOLOv7 for plate recognition. Created an API for the system with Flask and documented it using Swagger.\n\t-Car Price Prediction:\n\t\tProject: Car Price Prediction Model\n\t\tTechnologies: Web Scraping, DecisionTreeClassifier, Flask, Swagger\n\t\tDescription: Scraped data from Divar.ir to build a car price prediction model. Utilized a DecisionTreeClassifier with features like BrandType, Age, and Usage of the car. Developed an API for the model with Flask and documented it using Swagger.\n\t-Frontend Collaboration:\n\t\tTechnologies: React, tailwind, bootstrap\n\t\tDescription: Collaborated on frontend development for various projects, contributing approximately 30% to the design and implementation of user interfaces.");
-                break;
-            default:
-                this.echo("mozayedegar \n");
+        if (company === 'mozayedegar' || company === 'Mozayedegar' || company === 'all') {
+            this.echo("[[;rgb(255,255,255);]Mozayedegar (On-Site)] April 2023 - October 2023\n[[;rgb(255,165,0,1);]FULL STACK DEVELOPER (JUNIOR):]\n\t- Developed an e-commerce website using HTML, CSS, JavaScript, and React that increased customer engagement by 40%\n\t- Developed a web application using Python and Django that improved scalability and reliability");
+        }
+        
+        if (company === 'cmnet' || company === 'CMnet' || company === 'all') {
+            this.echo("[[;rgb(255,255,255);]CMnet (Remote)] August 2024 - present\n[[;rgb(255,165,0,1);]FULL STACK DEVELOPER (MID-LEVEL):]\n\t- Developed a RESTful API that handled over .5 million requests per day with response times under 120 milliseconds\n\t- Developed a RESTful API to enable communication between the website and the backend services");
+        }
+
+        if (company !== 'mozayedegar' && company !== 'cmnet' && company !== 'all') {
+            this.echo("[[;rgb(255,0,0);]Company not found!]");
         }
     }
 }, {
     checkArity: false,
     completion: true,
-    greetings: '[[;rgba(255, 255, 255, 1);]Welcome to my online resume; my name is Ashkan Tavassoli] \nUse [[;rgba(255, 165, 0, 1);]ls] to see list of commands! \n'
+    greetings: '[[;rgb(255,255,255);]Welcome to my online resume; my name is Ashkan Tavassoli] \nUse [[;rgb(255,165,0);]ls] to see list of commands! \n'
 });
