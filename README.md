@@ -22,7 +22,7 @@
 <b>📊 Stats</b>
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github&hide=contribs,prs,issues)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ashykng&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ashykng&show_icons=true&locale=en&layout=compact&langs_count=8&theme=transparent)
 
 <details>
   <summary><b>🏆 GitHub Trophies</b></summary>
