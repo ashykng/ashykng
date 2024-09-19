@@ -24,15 +24,9 @@
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github&hide=contribs,prs,issues)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ashykng&show_icons=true&locale=en&layout=compact&langs_count=8&theme=transparent)
 
-<details>
-  <summary><b>🏆 GitHub Trophies</b></summary>
+<b>🏆 GitHub Trophies</b>
 
-<div align="center">
-  
 ![](https://github-profile-trophy.vercel.app/?username=ashykng&theme=onedark&no-frame=true&no-bg=true&margin-w=4)
-
-</div>
-</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ashykng/ashykng/main/github-contribution-grid-snake-dark.svg" />
