@@ -9,7 +9,7 @@ $('body').terminal({
                   '!? -> ?! \n');
     },
     about: function() {
-        this.echo("Experienced programmer specialized in the design and development of application software. Strong skills in programming languages such as Python and JavaScript, and proficient in modern frameworks. Able to analyze user needs and provide effective and optimized solutions. Experience working in multidisciplinary teams and diverse projects, along with the ability to manage time and prioritize tasks. Interested in continuous learning and keeping technical knowledge up to date to improve software quality.");
+        this.echo('Experienced programmer specialized in the design and development of application software. Strong skills in programming languages such as Python and JavaScript, and proficient in modern frameworks. Able to analyze user needs and provide effective and optimized solutions. Experience working in multidisciplinary teams and diverse projects, along with the ability to manage time and prioritize tasks. Interested in continuous learning and keeping technical knowledge up to date to improve software quality.');
         },
     skill: function() {
         this.echo(
