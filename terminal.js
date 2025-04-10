@@ -9,13 +9,7 @@ $('body').terminal({
                   '!? -> ?! \n');
     },
     about: function() {
-        this.echo(```
-                    Experienced programmer specialized in the design and development of application software. Strong skills in
-                    programming languages such as Python and JavaScript, and proficient in modern frameworks. Able to analyze user
-                    needs and provide effective and optimized solutions. Experience working in multidisciplinary teams and diverse
-                    projects, along with the ability to manage time and prioritize tasks. Interested in continuous learning and keeping
-                    technical knowledge up to date to improve software quality.
-                    ```);
+        this.echo("Experienced programmer specialized in the design and development of application software. Strong skills in programming languages such as Python and JavaScript, and proficient in modern frameworks. Able to analyze user needs and provide effective and optimized solutions. Experience working in multidisciplinary teams and diverse projects, along with the ability to manage time and prioritize tasks. Interested in continuous learning and keeping technical knowledge up to date to improve software quality.");
         },
     skill: function() {
         this.echo(
@@ -48,9 +42,9 @@ $('body').terminal({
         this.echo($("<a href='https://github.com/ashykng/ashykng/raw/ashykng.github.io/Ashkan Tavassoli -Fa.pdf'>Persian Resume</a>"));
     },
     experience: function() {
-        this.echo("[[;rgb(255,255,255);]Farasanat Electronic] October 2024 - April 2025\n[[;rgb(255,165,0,1);]Junior Backend Developer:]\n\t- Developing and maintaining web APIs using Node.js and Express frameworks.\n\t- Contributing to database design and implementation using Postgres and MySQL.\n\t- Collaborating with the front-end team to integrate and optimize the user interface.\n\t- Writing technical documentation and user guides for various projects.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.");
-        this.echo("[[;rgb(255,255,255);]CM Net] August 2024 - October 2024\n[[;rgb(255,165,0,1);]Junior Full Stack Developer:]\n\t- Developing and implementing several web projects using BootStrap and React.\n\t- Designing and implementing RESTful APIs for communication between systems using Django.\n\t- Collaborating with different teams to provide technical solutions and optimize website performance.\n\t- Contributing to API development and integrating it with the Postgres database.\n\t- Conducting software testing and debugging to ensure correct functionality and good performance.\n\t- Providing technical documentation to team members and end users.");
-        this.echo("[[;rgb(255,255,255);]Mozayedegar] May 2023 - January 2024\n[[;rgb(255,165,0,1);]Junior Programmer:]\n\t- Developing and enhancing dynamic websites using HTML, CSS, and JavaScript programming languages.\n\t- Designing and implementing RESTful APIs for system communication using Flask and Django.\n\t- Swagger documentation for implemented APIs.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.\n\t- Analyzing and debugging software and improving the performance of existing code.\n\t- Building and deploying using Docker on servers.");
+        this.echo("[[;rgb(255,255,255);]Farasanat Electronic] October 2024 - April 2025\n[[;rgb(255,165,0,1);]Junior Backend Developer:]\n\t- Developing and maintaining web APIs using Node.js and Express frameworks.\n\t- Contributing to database design and implementation using Postgres and MySQL.\n\t- Collaborating with the front-end team to integrate and optimize the user interface.\n\t- Writing technical documentation and user guides for various projects.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.\n");
+        this.echo("[[;rgb(255,255,255);]CM Net] August 2024 - October 2024\n[[;rgb(255,165,0,1);]Junior Full Stack Developer:]\n\t- Developing and implementing several web projects using BootStrap and React.\n\t- Designing and implementing RESTful APIs for communication between systems using Django.\n\t- Collaborating with different teams to provide technical solutions and optimize website performance.\n\t- Contributing to API development and integrating it with the Postgres database.\n\t- Conducting software testing and debugging to ensure correct functionality and good performance.\n\t- Providing technical documentation to team members and end users.\n");
+        this.echo("[[;rgb(255,255,255);]Mozayedegar] May 2023 - January 2024\n[[;rgb(255,165,0,1);]Junior Programmer:]\n\t- Developing and enhancing dynamic websites using HTML, CSS, and JavaScript programming languages.\n\t- Designing and implementing RESTful APIs for system communication using Flask and Django.\n\t- Swagger documentation for implemented APIs.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.\n\t- Analyzing and debugging software and improving the performance of existing code.\n\t- Building and deploying using Docker on servers.\n");
     }
 }, {
     checkArity: false,
