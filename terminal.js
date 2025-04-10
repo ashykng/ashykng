@@ -3,34 +3,39 @@ $('body').terminal({
         this.echo('about -> About me! \n' +
                   'skill -> My skills \n' +
                   'education -> My educations \n' +
-                  'experience company_name -> My experiences (company_name is optional) \n' +
+                  'experience -> My experiences \n' +
                   'contact -> Ways of contacting me \n' +
                   'resume -> Download pdf version of resume \n' +
                   '!? -> ?! \n');
     },
     about: function() {
-        let date = new Date();
-        let age = date.getFullYear() - 2005;
-        this.echo('Hi I am Ashkan Tavassoli and I am a Python backend developer.\n' +
-                  'I am ' + age + ' years old. I like board games, online video games.\n');
-    },
+        this.echo(```
+                    Experienced programmer specialized in the design and development of application software. Strong skills in
+                    programming languages such as Python and JavaScript, and proficient in modern frameworks. Able to analyze user
+                    needs and provide effective and optimized solutions. Experience working in multidisciplinary teams and diverse
+                    projects, along with the ability to manage time and prioritize tasks. Interested in continuous learning and keeping
+                    technical knowledge up to date to improve software quality.
+                    ```);
+        },
     skill: function() {
-        this.echo('Python  4.5/5 \n' +
-                  'Django  3/5 \n' + 
-                  'Flask  3.5/5 \n' +
-                  'SQL  3/5 \n' +
-                  'React 3/5 \n' +
-                  'Java 3/5 \n' +
-                  'MVC  3/5 \n' + 
-                  'Git  3/5 \n'+
-                  'Docker  3/5 \n'+
-                  'Linux  3/5 \n');
+        this.echo(
+                    'Python \n' +
+                    'Web Scraping \n' +
+                    'Django \n' +
+                    'JavaScript \n' +
+                    'Node.js \n' +
+                    'React.js \n' +
+                    'Database \n' +
+                    'Docker \n' +
+                    'Git \n' +
+                    'Linux \n'
+                );
     },
     '!?': function() {
         this.echo("I like your curiosity :D \n");
     },
     education: function() {
-        this.echo("Attempting at University of Tabriz  Bachelor's degree in Computer Engineering\n");
+        this.echo("Attempting at University of Tabriz Bachelor's degree in Computer Engineering from October 2023\n");
     },
     contact: function() {
         const github = $("<a target='_blank' href='https://github.com/ashykng'> Github </a>");
@@ -39,21 +44,13 @@ $('body').terminal({
         this.echo(email);
     },
     resume: function() {
-        const resume = $("<a href='https://github.com/ashykng/ashykng/raw/ashykng.github.io/Ashkan Tavassoli.pdf'>Resume</a>");
-        this.echo(resume);
+        this.echo($("<a href='https://github.com/ashykng/ashykng/raw/ashykng.github.io/Ashkan Tavassoli -En.pdf'>English Resume</a>"));
+        this.echo($("<a href='https://github.com/ashykng/ashykng/raw/ashykng.github.io/Ashkan Tavassoli -Fa.pdf'>Persian Resume</a>"));
     },
-    experience: function(company='all') {
-        if (company === 'mozayedegar' || company === 'Mozayedegar' || company === 'all') {
-            this.echo("[[;rgb(255,255,255);]Mozayedegar (On-Site)] April 2023 - October 2023\n[[;rgb(255,165,0,1);]FULL STACK DEVELOPER (JUNIOR):]\n\t- Developed an e-commerce website using HTML, CSS, JavaScript, and React that increased customer engagement by 40%\n\t- Developed a web application using Python and Django that improved scalability and reliability");
-        }
-        
-        if (company === 'cmnet' || company === 'CMnet' || company === 'all') {
-            this.echo("[[;rgb(255,255,255);]CMnet (Remote)] August 2024 - present\n[[;rgb(255,165,0,1);]FULL STACK DEVELOPER (MID-LEVEL):]\n\t- Developed a RESTful API that handled over .5 million requests per day with response times under 120 milliseconds\n\t- Developed a RESTful API to enable communication between the website and the backend services");
-        }
-
-        if (company !== 'mozayedegar' && company !== 'cmnet' && company !== 'all') {
-            this.echo("[[;rgb(255,0,0);]Company not found!]");
-        }
+    experience: function() {
+        this.echo("[[;rgb(255,255,255);]Farasanat Electronic] October 2024 - April 2025\n[[;rgb(255,165,0,1);]Junior Backend Developer:]\n\t- Developing and maintaining web APIs using Node.js and Express frameworks.\n\t- Contributing to database design and implementation using Postgres and MySQL.\n\t- Collaborating with the front-end team to integrate and optimize the user interface.\n\t- Writing technical documentation and user guides for various projects.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.");
+        this.echo("[[;rgb(255,255,255);]CM Net] August 2024 - October 2024\n[[;rgb(255,165,0,1);]Junior Full Stack Developer:]\n\t- Developing and implementing several web projects using BootStrap and React.\n\t- Designing and implementing RESTful APIs for communication between systems using Django.\n\t- Collaborating with different teams to provide technical solutions and optimize website performance.\n\t- Contributing to API development and integrating it with the Postgres database.\n\t- Conducting software testing and debugging to ensure correct functionality and good performance.\n\t- Providing technical documentation to team members and end users.");
+        this.echo("[[;rgb(255,255,255);]Mozayedegar] May 2023 - January 2024\n[[;rgb(255,165,0,1);]Junior Programmer:]\n\t- Developing and enhancing dynamic websites using HTML, CSS, and JavaScript programming languages.\n\t- Designing and implementing RESTful APIs for system communication using Flask and Django.\n\t- Swagger documentation for implemented APIs.\n\t- Working on open-source projects and contributing to the programming community using Git and GitHub.\n\t- Analyzing and debugging software and improving the performance of existing code.\n\t- Building and deploying using Docker on servers.");
     }
 }, {
     checkArity: false,
