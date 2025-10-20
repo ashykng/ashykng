@@ -4,6 +4,7 @@
 
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
 <img align="left" alt="Javascript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+<img align="left" alt="،Typescript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
 <img align="left" alt="Django" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
 <img align="left" alt="Flask" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />
 <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
@@ -19,7 +20,7 @@
 <br />
 <br />
 
-<b>📊 Stats</b>
+<!-- <b>📊 Stats</b> -->
 
 ![Ashkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ashykng&show_icons=true&theme=transparent&rank_icon=github&hide=contribs,prs,issues)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ashykng&show_icons=true&locale=en&layout=compact&langs_count=8&theme=transparent)
